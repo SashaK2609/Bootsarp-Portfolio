@@ -47,6 +47,24 @@
 	background-size: cover;
  }
 
+ h1.display-4 {
+	text-align: center;
+ }
+
+ div.container {
+	width: 70%;
+	position: absolute;
+	bottom: 100px;
+	right: 90px;
+	text-align: justify;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ /*Portfolio container*/
+ h2.sectionHeading {
+	width: 100%;
+	margin-bottom: 10px;
+ }
  
  /*.menu {
 	display: flex;
