@@ -64,7 +64,36 @@
  h2.sectionHeading {
 	width: 100%;
 	margin-bottom: 10px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 900;
  }
+
+ /*Cards*/
+ img.card-img-top {
+	width: 335px;
+	height: 300px;
+
+ }
+
+ div.row.work-exp {
+	background-color: #c7bc9d;
+	text-align: center;
+	height: 600px;
+	display: flex;
+	align-items: center;
+ }
+
+ h5.card-title {
+	font-weight: bold;
+	text-decoration: underline;
+ }
+
+ .card-body a {
+	color: #b33e27;
+ }
+
+
  
  /*.menu {
 	display: flex;
