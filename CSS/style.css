@@ -37,6 +37,10 @@
 	font-family: "Pacifico", sans-serif;
  }
 
+ .spacer {
+	flex-grow: 1;
+ }
+
  /*Hero section*/
  .jumbotron {
 	width: 100%;
@@ -45,17 +49,18 @@
 	background-image: url(../Images/5651986.jpg);
 	background-position: center;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 130px;
  }
 
  h1.display-4 {
 	text-align: center;
  }
 
- div.container {
+ div.container-jumbotron {
 	width: 70%;
-	position: absolute;
-	bottom: 100px;
-	right: 90px;
 	text-align: justify;
 	font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -83,7 +88,7 @@
  div.row.work-exp {
 	background-color: #c7bc9d;
 	text-align: center;
-	height: 600px;
+	min-height: 600px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -98,6 +103,91 @@
  .card-body a {
 	color: #b33e27;
  }
+
+ /*Skills-grid*/
+ .skillimg {
+	width: 100%;
+	max-width: 150px;
+ }
+
+ .skill-section-title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: #c4c6cc 5px 2px 4px;
+ }
+ 
+ .skillname {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ }
+
+ .skillclass {
+	background-color: #7c6f85;
+ }
+
+ /*Footer*/
+ #contact {
+	min-height: 100px;
+	background: linear-gradient(to left, #343238, #6d6482);
+ }
+
+ .bottom-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+ }
+
+ .phonenumber {
+	font-size: 20px;
+	color: #cc86f7;
+	float: right;
+	margin-right: 20px;
+ }
+
+ .phonenumber:hover {
+	color: #343238;
+ }
+
+.bottom-nav li a {
+	font-size: 50px;
+	color: #cc86f7;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+
+.bottom-nav li a:hover {
+	opacity: 0.9;
+}
+
+h2.section-title3 {
+	width: 20%;
+	margin: 0;
+	padding-top: 10px;
+	text-align: end;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+.bi bi-envelope-at-fill {
+	width: 24px;
+	height: 24px;
+}
+
+
+
 
 
  
