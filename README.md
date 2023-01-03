@@ -23,6 +23,7 @@ Experience section is a part of portfolio container and includes three Bootstrap
 ![alt text](Images/card-pic.png)
 
 Skills section was created as a grid, containing 2 main parts: Soft and Hard skills. Each part has a cell with a skill information in it.
+
 ![alt text](Images/skill.png)
 ![alt text](Images/skills-pic.png)
 
