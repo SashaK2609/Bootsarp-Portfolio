@@ -31,7 +31,7 @@ Footer has basic contacts and social media icons wrapped in hyperlinks.
 ![alt text](Images/footer.png)
 ![alt text](Images/footer-pic.png)
 
-Besides of the fact that Bootstrap has its own styling, some styles were added to CSS file so the project could be pleasant look at.
+Besides of the fact that Bootstrap has its own styling, some styles were added to CSS file so the project pleases the eye.
 
 ### Credits
 N/A
